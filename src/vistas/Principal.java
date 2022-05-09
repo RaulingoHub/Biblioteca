@@ -63,7 +63,6 @@ public class Principal extends javax.swing.JFrame {
         jSeparator4 = new javax.swing.JPopupMenu.Separator();
         jMenu8 = new javax.swing.JMenu();
         jMenuItemInventario = new javax.swing.JMenuItem();
-        jMenuItemInventario1 = new javax.swing.JMenuItem();
         jMenu9 = new javax.swing.JMenu();
         jMenuItem2 = new javax.swing.JMenuItem();
         jSeparator5 = new javax.swing.JPopupMenu.Separator();
@@ -103,12 +102,12 @@ public class Principal extends javax.swing.JFrame {
 
         jMenu1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icono2/Venta.png"))); // NOI18N
-        jMenu1.setText("Venta   ");
-        jMenu1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenu1.setText("Prestamos");
+        jMenu1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jMenu1.setFont(new java.awt.Font("Lucida Calligraphy", 1, 18)); // NOI18N
 
         jMenuItem4.setFont(new java.awt.Font("Lucida Calligraphy", 1, 12)); // NOI18N
-        jMenuItem4.setText("Registrar venta");
+        jMenuItem4.setText("Realizar Prestamo");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem4ActionPerformed(evt);
@@ -120,12 +119,12 @@ public class Principal extends javax.swing.JFrame {
 
         jMenu2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icono2/icons8_shirt_30px.png"))); // NOI18N
-        jMenu2.setText("Productos   ");
-        jMenu2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenu2.setText("Libros");
+        jMenu2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jMenu2.setFont(new java.awt.Font("Lucida Calligraphy", 1, 18)); // NOI18N
 
         jMenuItem1.setFont(new java.awt.Font("Lucida Calligraphy", 1, 12)); // NOI18N
-        jMenuItem1.setText("Registrar Productos");
+        jMenuItem1.setText("Registrar Libros");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem1ActionPerformed(evt);
@@ -135,7 +134,7 @@ public class Principal extends javax.swing.JFrame {
         jMenu2.add(jSeparator2);
 
         jMenuItemEditarEmpleado.setFont(new java.awt.Font("Lucida Calligraphy", 1, 12)); // NOI18N
-        jMenuItemEditarEmpleado.setText("Editar Producto");
+        jMenuItemEditarEmpleado.setText("Editar Libros");
         jMenuItemEditarEmpleado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItemEditarEmpleadoActionPerformed(evt);
@@ -145,7 +144,7 @@ public class Principal extends javax.swing.JFrame {
         jMenu2.add(jSeparator1);
 
         btnEliminarProductos.setFont(new java.awt.Font("Lucida Calligraphy", 1, 12)); // NOI18N
-        btnEliminarProductos.setText("Eliminar Productos");
+        btnEliminarProductos.setText("Eliminar Libro");
         btnEliminarProductos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEliminarProductosActionPerformed(evt);
@@ -155,7 +154,7 @@ public class Principal extends javax.swing.JFrame {
         jMenu2.add(jSeparator3);
 
         btnInventario.setFont(new java.awt.Font("Lucida Calligraphy", 1, 12)); // NOI18N
-        btnInventario.setText("Codigo Producto");
+        btnInventario.setText("Codigo Libro");
         btnInventario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnInventarioActionPerformed(evt);
@@ -169,7 +168,7 @@ public class Principal extends javax.swing.JFrame {
         jMenu8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jMenu8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icono2/report.png"))); // NOI18N
         jMenu8.setText("Reportes   ");
-        jMenu8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenu8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jMenu8.setFont(new java.awt.Font("Lucida Calligraphy", 1, 18)); // NOI18N
 
         jMenuItemInventario.setFont(new java.awt.Font("Lucida Calligraphy", 1, 12)); // NOI18N
@@ -181,25 +180,16 @@ public class Principal extends javax.swing.JFrame {
         });
         jMenu8.add(jMenuItemInventario);
 
-        jMenuItemInventario1.setFont(new java.awt.Font("Lucida Calligraphy", 1, 12)); // NOI18N
-        jMenuItemInventario1.setText("Ventas por cajero");
-        jMenuItemInventario1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItemInventario1ActionPerformed(evt);
-            }
-        });
-        jMenu8.add(jMenuItemInventario1);
-
         jMenuBar1.add(jMenu8);
 
         jMenu9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jMenu9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icono2/icons8_user_30px.png"))); // NOI18N
-        jMenu9.setText("Empleados   ");
-        jMenu9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenu9.setText("Encargado");
+        jMenu9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jMenu9.setFont(new java.awt.Font("Lucida Calligraphy", 1, 18)); // NOI18N
 
         jMenuItem2.setFont(new java.awt.Font("Lucida Calligraphy", 1, 12)); // NOI18N
-        jMenuItem2.setText("Registrar Empleado");
+        jMenuItem2.setText("Registrar Encargado");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem2ActionPerformed(evt);
@@ -209,7 +199,7 @@ public class Principal extends javax.swing.JFrame {
         jMenu9.add(jSeparator5);
 
         jMenuItem6.setFont(new java.awt.Font("Lucida Calligraphy", 1, 12)); // NOI18N
-        jMenuItem6.setText("Editar Empleado");
+        jMenuItem6.setText("Editar Encargado");
         jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem6ActionPerformed(evt);
@@ -218,7 +208,7 @@ public class Principal extends javax.swing.JFrame {
         jMenu9.add(jMenuItem6);
 
         jMenuItem5.setFont(new java.awt.Font("Lucida Calligraphy", 1, 12)); // NOI18N
-        jMenuItem5.setText("Eliminar Empleado");
+        jMenuItem5.setText("Eliminar Encargado");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem5ActionPerformed(evt);
@@ -437,39 +427,6 @@ public class Principal extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jMenuItemInventarioActionPerformed
 
-    private void jMenuItemInventario1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemInventario1ActionPerformed
-        try {
-
-            long codigo = Long.valueOf(JOptionPane.showInputDialog("Ingrese codigo de autorización"));
-
-            long codigoA = autorizacion(codigo);
-            if (codigoA > 0) {
-
-                String fecha = String.valueOf(JOptionPane.showInputDialog("Ingrese la fecha, 2021-05-26"));
-                bd.connect();
-                File reporte = new File("src/reportes/ventaPorCajero.jasper");
-                Map parametros = new HashMap();
-                parametros.put("fecha", fecha);
-                JasperPrint print = JasperFillManager.fillReport(reporte.getPath(), parametros, bd.getConnection());
-                JasperViewer viewer = new JasperViewer(print, true);
-
-                viewer.setName("ventas por cajero");
-                viewer.setVisible(true);
-
-            } else {
-
-                JOptionPane.showMessageDialog(null, "codigo no valido",
-                        "Hey!", JOptionPane.ERROR_MESSAGE);
-            }
-
-        } catch (Exception e) {
-        }finally{
-            bd.disconnect();
-        }
-
-
-    }//GEN-LAST:event_jMenuItemInventario1ActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -528,7 +485,6 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem6;
     private javax.swing.JMenuItem jMenuItemEditarEmpleado;
     private javax.swing.JMenuItem jMenuItemInventario;
-    private javax.swing.JMenuItem jMenuItemInventario1;
     private javax.swing.JPopupMenu.Separator jSeparator1;
     private javax.swing.JPopupMenu.Separator jSeparator2;
     private javax.swing.JPopupMenu.Separator jSeparator3;
