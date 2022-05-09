@@ -5,10 +5,8 @@
  */
 package vistas;
 
-import entidades.ImagenFondo;
+
 import java.io.File;
-import java.util.HashMap;
-import java.util.Map;
 import javax.swing.JOptionPane;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
@@ -30,7 +28,7 @@ public class Principal extends javax.swing.JFrame {
 
     public Principal() {
         initComponents();
-        contenido.setBorder(new ImagenFondo());
+        
     }
 
     /**
@@ -167,7 +165,7 @@ public class Principal extends javax.swing.JFrame {
 
         jMenu8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jMenu8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icono2/report.png"))); // NOI18N
-        jMenu8.setText("Reportes   ");
+        jMenu8.setText("Inventario");
         jMenu8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jMenu8.setFont(new java.awt.Font("Lucida Calligraphy", 1, 18)); // NOI18N
 

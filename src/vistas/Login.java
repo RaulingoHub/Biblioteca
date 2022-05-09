@@ -75,7 +75,7 @@ public class Login extends javax.swing.JFrame {
         btnLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/icons8_enter_key_50px.png"))); // NOI18N
         btnLogin.setText("Entrar");
         btnLogin.setContentAreaFilled(false);
-        btnLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnLogin.setFocusable(false);
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -88,6 +88,7 @@ public class Login extends javax.swing.JFrame {
         jLabel5.setText("Contraseña:");
 
         jLabel6.setFont(new java.awt.Font("Elephant", 0, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Biblioteca FIM");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
